@@ -16,4 +16,8 @@ export default function initScrollCard() {
 	toggle.addEventListener('click', () => {
 		card.classList.toggle('collapsed');
 	});
+
+	card.addEventListener('click', () => {
+		card.classList.toggle('collapsed');
+	});
 }
