@@ -186,7 +186,7 @@ ol {
 }
 
 .section-subtitle {
-	font-size: 1.125rem;
+	font-size: 1rem;
 	color: var(--color-muted);
 	max-width: 600px;
 	line-height: 1.7;
@@ -578,12 +578,6 @@ ol {
 	@supports not (backdrop-filter: blur(10px)) {
 		background-color: rgba(0, 0, 0, 0.8);
 	}
-}
-
-.hero__subtitle span {
-	background-color: #02487c;
-	color: var(--color-accent-foreground);
-	padding: 2px 5px;
 }
 
 .hero__buttons {
@@ -1760,13 +1754,13 @@ a.contact__detail:hover {
 
 .scroll-card {
 	width: 300px;
-	height: 260px;
+	height: auto;
 	color: #fff;
 	background: #193f72a9;
 	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(5px);
 	border-radius: 20px;
-	padding: 20px;
+	padding: 10px;
 	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 	transition: all 0.35s ease;
 	overflow: hidden;
@@ -1789,11 +1783,12 @@ a.contact__detail:hover {
 	z-index: 2;
 	color: #fff;
 	text-align: center;
-	padding: 20px;
+	padding: 13px;
 }
 
 .card-content span {
 	color: var(--color-card-foreground);
+	font-size: 0.8rem;
 }
 
 .card-content a {
@@ -1815,7 +1810,9 @@ a.contact__detail:hover {
 }
 
 .card-text {
-	font-size: 0.7rem;
+	font-size: 0.6rem;
+	line-height: 1.4;
+	padding: 2px;
 	color: var(--color-card-foreground);
 }
 .card-text span {
@@ -1881,7 +1878,7 @@ a.contact__detail:hover {
 		opacity: 0.8;
 	}
 	100% {
-		transform: translate(-50%, -50%) scale(2.5);
+		transform: translate(-50%, -50%) scale(2);
 		opacity: 0;
 	}
 }
