@@ -3,7 +3,6 @@ import initCounters from './counters.js';
 import initHeader from './header.js';
 import initMobileMenu from './mobile-menu.js';
 import initModalGallery from './modalGallery.js';
-import initPartnersSlider from './partnersSlider.js';
 import initPortfolio from './portfolio.js';
 import initPreload from './preload.js';
 import initScrollAnimations from './scrollAnimations.js';
@@ -24,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	initPortfolio();
 	initModalGallery();
 	initContactForm();
-	initPartnersSlider();
 	initPreload();
 	initScrollToUp();
 	initScrollCard();
